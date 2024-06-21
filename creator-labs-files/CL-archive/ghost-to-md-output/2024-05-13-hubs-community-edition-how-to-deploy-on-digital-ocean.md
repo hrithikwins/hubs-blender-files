@@ -218,12 +218,12 @@ Generate the new token with write access as well and copy the secret
 ![](./content/images/2024/05/image-25.png)
 And in your computer’s terminal use
 
-> doctl auth init --context <name>
+``` doctl auth init --context <name>```
 
 In my example I used hubs-ce as my context name
 
-> doctl auth list
-> doctl auth switch --context <name>
+``` doctl auth list```
+``` doctl auth switch --context <name>```
 
 **Note**: Kubernetes context and doctl context are both different, doctl context is for selecting the right account for docker and kubernetes context is for selecting the right context for kubernetes cluster.
 
